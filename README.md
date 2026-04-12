@@ -24,3 +24,34 @@ In the fast-growing e-commerce landscape, small and medium enterprises (SMEs) of
    - Hash passwords at rest using internal `bcryptjs` libraries.
    - Implement Role-Based Access Control (RBAC), enabling exclusive administrative pages where owners can manage global order status while standard users interact strictly with their own sandboxed data.
    - Abstract sensitive information (like JWT secrets, Stripe Keys, MONGODB URI, and encryption keys) using `.env` variables.
+
+## Run the App Locally
+
+1. Copy the backend example environment file:
+   ```bash
+   cd backend
+   cp .env.example .env
+   ```
+2. Install dependencies from the project root:
+   ```bash
+   cd ..
+   npm install
+   ```
+3. Seed the database with products:
+   ```bash
+   npm run seed
+   ```
+4. Start the full stack app:
+   ```bash
+   npm run start
+   ```
+
+This starts the backend on `http://localhost:5000` and the React frontend on `http://localhost:3000`.
+
+## Admin Login
+
+- Email: `kotareddy9848@gmail.com`
+- Password: `kotareddy9848`
+
+The backend now auto-creates this admin account on startup and refreshes it with these credentials.
+For production, you can override them with `ADMIN_EMAIL`, `ADMIN_PASSWORD`, and `ADMIN_NAME` in your backend environment.

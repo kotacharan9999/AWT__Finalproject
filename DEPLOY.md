@@ -30,8 +30,12 @@ Render.com cleanly supports this deployment pattern natively.
 5. Map your **Environment Variables** securely inside Render interface:
    - `STRIPE_SECRET_KEY`: *value*
    - `MONGODB_URI`: *value*
+   - `ADMIN_EMAIL`: `kotareddy9848@gmail.com`
+   - `ADMIN_PASSWORD`: `kotareddy9848`
+   - `ADMIN_NAME`: `Admin`
    - `ENCRYPTION_KEY`: *Any secure 32 byte randomized string*
 
 ## Step 4: Verification 
 Once Render successfully builds the assets, access your fresh URL! 
-> Note: Your first user registration with your default email will be securely routed via the endpoint to automatically assign the remote `isAdmin=true` MongoDB attribute!
+> Default admin login: `kotareddy9848@gmail.com` / `kotareddy9848`
+> The backend auto-creates this admin account on startup and ensures it keeps `isAdmin=true`.

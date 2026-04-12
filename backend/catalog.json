@@ -1,0 +1,922 @@
+[
+  {
+    "name": "Apple iPhone 15 Pro Max",
+    "brand": "Apple",
+    "price": 134900,
+    "cat": "Electronics & Gadgets",
+    "sub": "Smartphones",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1695048132800-4b360ae32a39?w=500&q=80",
+    "desc": "6.7\" Super Retina XDR, A17 Pro chip, 48MP camera, Titanium build"
+  },
+  {
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "price": 129999,
+    "cat": "Electronics & Gadgets",
+    "sub": "Smartphones",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500&q=80",
+    "desc": "200MP Camera, S-Pen, AI features, 5000mAh battery"
+  },
+  {
+    "name": "OnePlus 12 5G",
+    "brand": "OnePlus",
+    "price": 64999,
+    "cat": "Electronics & Gadgets",
+    "sub": "Smartphones",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500&q=80",
+    "desc": "Snapdragon 8 Gen 3, 50MP Hasselblad camera, 100W fast charging"
+  },
+  {
+    "name": "Realme 12 Pro+",
+    "brand": "Realme",
+    "price": 29999,
+    "cat": "Electronics & Gadgets",
+    "sub": "Smartphones",
+    "rating": 4.4,
+    "img": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500&q=80",
+    "desc": "200MP periscope camera, curved AMOLED, OIS"
+  },
+  {
+    "name": "Apple MacBook Air M3",
+    "brand": "Apple",
+    "price": 114900,
+    "cat": "Electronics & Gadgets",
+    "sub": "Laptops",
+    "rating": 4.9,
+    "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80",
+    "desc": "M3 chip, 18-hour battery, 13.6\" Liquid Retina display, 8GB RAM"
+  },
+  {
+    "name": "ASUS ROG Strix G15 Gaming Laptop",
+    "brand": "ASUS",
+    "price": 89990,
+    "cat": "Electronics & Gadgets",
+    "sub": "Laptops",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1593642632574-0e6b7b6a0d1e?w=500&q=80",
+    "desc": "AMD Ryzen 9, RTX 4070, 16GB RAM, 1TB SSD, 144Hz display"
+  },
+  {
+    "name": "Dell XPS 15 Laptop",
+    "brand": "Dell",
+    "price": 145000,
+    "cat": "Electronics & Gadgets",
+    "sub": "Laptops",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&q=80",
+    "desc": "Intel Core i9, OLED 4K display, 32GB RAM, 1TB SSD"
+  },
+  {
+    "name": "HP Spectre x360 2-in-1",
+    "brand": "HP",
+    "price": 95000,
+    "cat": "Electronics & Gadgets",
+    "sub": "Laptops",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
+    "desc": "Intel Core i7, 13.5\" OLED, 360° touchscreen"
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "brand": "Sony",
+    "price": 29990,
+    "cat": "Electronics & Gadgets",
+    "sub": "Audio",
+    "rating": 4.9,
+    "img": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
+    "desc": "Industry-leading ANC, 30h battery, Hi-Res Audio, multipoint BT"
+  },
+  {
+    "name": "Apple AirPods Pro 2nd Gen",
+    "brand": "Apple",
+    "price": 24900,
+    "cat": "Electronics & Gadgets",
+    "sub": "Audio",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1588423771073-b8903fead85b?w=500&q=80",
+    "desc": "Active Noise Cancellation, Adaptive Transparency, MagSafe charging"
+  },
+  {
+    "name": "JBL Flip 6 Bluetooth Speaker",
+    "brand": "JBL",
+    "price": 8999,
+    "cat": "Electronics & Gadgets",
+    "sub": "Audio",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&q=80",
+    "desc": "IP67 waterproof, 12h battery, PartyBoost feature"
+  },
+  {
+    "name": "Samsung 65\" 4K QLED Smart TV",
+    "brand": "Samsung",
+    "price": 89990,
+    "cat": "Electronics & Gadgets",
+    "sub": "Televisions",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=500&q=80",
+    "desc": "Quantum Dot Technology, Alexa built-in, 120Hz refresh rate"
+  },
+  {
+    "name": "Apple iPad Pro 12.9\"",
+    "brand": "Apple",
+    "price": 109900,
+    "cat": "Electronics & Gadgets",
+    "sub": "Tablets",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&q=80",
+    "desc": "M2 chip, Liquid Retina XDR, Face ID, Thunderbolt"
+  },
+  {
+    "name": "Canon EOS R8 Camera",
+    "brand": "Canon",
+    "price": 129990,
+    "cat": "Electronics & Gadgets",
+    "sub": "Cameras",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500&q=80",
+    "desc": "24.2MP Full-Frame, 4K60p video, Eye AF, dual card slots"
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "brand": "Apple",
+    "price": 41900,
+    "cat": "Electronics & Gadgets",
+    "sub": "Smartwatches",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1579721801357-be41a91b49be?w=500&q=80",
+    "desc": "Always-on Retina Display, Blood Oxygen, ECG, GPS, 18h battery"
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "brand": "Samsung",
+    "price": 28999,
+    "cat": "Electronics & Gadgets",
+    "sub": "Smartwatches",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "desc": "Advanced sleep coach, BioActive sensor, Sapphire glass"
+  },
+  {
+    "name": "Logitech MX Master 3 Mouse",
+    "brand": "Logitech",
+    "price": 9895,
+    "cat": "Electronics & Gadgets",
+    "sub": "Peripherals",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&q=80",
+    "desc": "Ultra-fast magnetic scroll, 8000 DPI, multi-device pairing"
+  },
+  {
+    "name": "Mechanical Gaming Keyboard RGB",
+    "brand": "HyperX",
+    "price": 7999,
+    "cat": "Electronics & Gadgets",
+    "sub": "Peripherals",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=500&q=80",
+    "desc": "Brown switches, per-key RGB, anti-ghosting, detachable cable"
+  },
+  {
+    "name": "Portable SSD 2TB Samsung T7",
+    "brand": "Samsung",
+    "price": 15999,
+    "cat": "Electronics & Gadgets",
+    "sub": "Storage",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1619738648656-10f02b0c3b87?w=500&q=80",
+    "desc": "1050 MB/s read speed, password encryption, shock resistance"
+  },
+  {
+    "name": "DJI Mini 4 Pro Drone",
+    "brand": "DJI",
+    "price": 79990,
+    "cat": "Electronics & Gadgets",
+    "sub": "Drones",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500&q=80",
+    "desc": "4K/60fps camera, 34min flight time, autonomous flight modes"
+  },
+  {
+    "name": "Silk Banarasi Saree",
+    "brand": "Nalli",
+    "price": 8999,
+    "cat": "Ladies Corner",
+    "sub": "Sarees",
+    "rating": 4.9,
+    "img": "https://images.unsplash.com/photo-1583391733956-6c4e13b1b0e0?w=500&q=80",
+    "desc": "Pure silk with golden zari work, traditional Banarasi weave"
+  },
+  {
+    "name": "Embroidered Anarkali Suit",
+    "brand": "Biba",
+    "price": 3499,
+    "cat": "Ladies Corner",
+    "sub": "Kurta Sets",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1520367445093-50dc08a59d9d?w=500&q=80",
+    "desc": "Floral embroidery, full flare, comes with dupatta"
+  },
+  {
+    "name": "Women Floral Maxi Dress",
+    "brand": "ONLY",
+    "price": 1999,
+    "cat": "Ladies Corner",
+    "sub": "Dresses",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=500&q=80",
+    "desc": "Lightweight chiffon, V-neck, perfect for summer"
+  },
+  {
+    "name": "Women's Blazer Jackеt",
+    "brand": "AND",
+    "price": 2799,
+    "cat": "Ladies Corner",
+    "sub": "Formal Wear",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&q=80",
+    "desc": "Single button closure, tailored fit, notched lapel"
+  },
+  {
+    "name": "Ethnic Sharara Set",
+    "brand": "W",
+    "price": 2199,
+    "cat": "Ladies Corner",
+    "sub": "Ethnic Wear",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=500&q=80",
+    "desc": "Printed kurta with wide-leg sharara pants"
+  },
+  {
+    "name": "Block Print Cotton Kurti",
+    "brand": "Global Desi",
+    "price": 899,
+    "cat": "Ladies Corner",
+    "sub": "Kurtis",
+    "rating": 4.4,
+    "img": "https://images.unsplash.com/photo-1597983073493-88cd7ed5f8b5?w=500&q=80",
+    "desc": "100% cotton, Rajasthani block print, machine washable"
+  },
+  {
+    "name": "Women Skinny Jeans Blue",
+    "brand": "Levis",
+    "price": 2799,
+    "cat": "Ladies Corner",
+    "sub": "Jeans",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+    "desc": "High-waist, stretch denim, classic 5-pocket design"
+  },
+  {
+    "name": "Strappy Heeled Sandals",
+    "brand": "Inc.5",
+    "price": 1499,
+    "cat": "Ladies Corner",
+    "sub": "Footwear",
+    "rating": 4.4,
+    "img": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&q=80",
+    "desc": "Block heel, faux leather, ankle strap with buckle"
+  },
+  {
+    "name": "Ladies Leather Handbag",
+    "brand": "Caprese",
+    "price": 3299,
+    "cat": "Ladies Corner",
+    "sub": "Bags",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&q=80",
+    "desc": "Genuine leather, multiple compartments, shoulder strap"
+  },
+  {
+    "name": "Gold Diamond Stud Earrings",
+    "brand": "Tanishq",
+    "price": 12999,
+    "cat": "Ladies Corner",
+    "sub": "Jewellery",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&q=80",
+    "desc": "BIS Hallmarked 18K gold, certified diamonds"
+  },
+  {
+    "name": "Women Oversized Hoodie",
+    "brand": "H&M",
+    "price": 1299,
+    "cat": "Ladies Corner",
+    "sub": "Casual Wear",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=500&q=80",
+    "desc": "Fleece inside, kangaroo pocket, relaxed fit"
+  },
+  {
+    "name": "Yoga Pants High Waist",
+    "brand": "Nykaa Fashion",
+    "price": 1099,
+    "cat": "Ladies Corner",
+    "sub": "Activewear",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&q=80",
+    "desc": "4-way stretch fabric, tummy control, side pockets"
+  },
+  {
+    "name": "Silk Blend Lehenga Choli",
+    "brand": "Meena Bazaar",
+    "price": 5999,
+    "cat": "Ladies Corner",
+    "sub": "Ethnic Wear",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1583391733981-7e6491a1aa91?w=500&q=80",
+    "desc": "Sequin embroidered, comes with dupatta, bridal ready"
+  },
+  {
+    "name": "Women Sports Bra Pack of 3",
+    "brand": "Jockey",
+    "price": 899,
+    "cat": "Ladies Corner",
+    "sub": "Innerwear",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=500&q=80",
+    "desc": "Moisture wicking, seamless, light support"
+  },
+  {
+    "name": "Perfume Flowerbomb Viktor",
+    "brand": "Viktor&Rolf",
+    "price": 8500,
+    "cat": "Ladies Corner",
+    "sub": "Fragrances",
+    "rating": 4.9,
+    "img": "https://images.unsplash.com/photo-1541643600914-78b084683702?w=500&q=80",
+    "desc": "EDP 50ml, floral burst, long-lasting sillage"
+  },
+  {
+    "name": "Men's Slim Fit Shirt White",
+    "brand": "Van Heusen",
+    "price": 1299,
+    "cat": "Mens Corner",
+    "sub": "Formal Shirts",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&q=80",
+    "desc": "Cotton rich, moisture wicking, wrinkle-free"
+  },
+  {
+    "name": "Men's Polo T-Shirt",
+    "brand": "U.S. Polo Assn.",
+    "price": 899,
+    "cat": "Mens Corner",
+    "sub": "T-Shirts",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1592881333793-f3a0d8a0bdf6?w=500&q=80",
+    "desc": "100% cotton pique, ribbed collar, logo embroidery"
+  },
+  {
+    "name": "Men's Slim Fit Chinos Beige",
+    "brand": "Peter England",
+    "price": 1699,
+    "cat": "Mens Corner",
+    "sub": "Trousers",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80",
+    "desc": "Cotton blend, 4-pocket, stretchable waist"
+  },
+  {
+    "name": "Men's Denim Jacket",
+    "brand": "Levis",
+    "price": 3299,
+    "cat": "Mens Corner",
+    "sub": "Jackets",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+    "desc": "Classic trucker jacket, 100% cotton denim, button closure"
+  },
+  {
+    "name": "Men's Running Shoes Air",
+    "brand": "Nike",
+    "price": 8999,
+    "cat": "Mens Corner",
+    "sub": "Footwear",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
+    "desc": "Air cushioning, React foam, breathable mesh upper"
+  },
+  {
+    "name": "Men's Leather Formal Shoes",
+    "brand": "Red Tape",
+    "price": 2999,
+    "cat": "Mens Corner",
+    "sub": "Footwear",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=500&q=80",
+    "desc": "Genuine leather, lace-up, cushioned insole"
+  },
+  {
+    "name": "Men's Slim Fit Suit Navy",
+    "brand": "Raymond",
+    "price": 12999,
+    "cat": "Mens Corner",
+    "sub": "Suits",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1594938298603-c8148c4b4c7f?w=500&q=80",
+    "desc": "Poly-viscose, 2-piece, half-canvas construction"
+  },
+  {
+    "name": "Men's Kurta Pyjama Set",
+    "brand": "Manyavar",
+    "price": 2499,
+    "cat": "Mens Corner",
+    "sub": "Ethnic Wear",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=500&q=80",
+    "desc": "Cotton silk blend, printed, festive occasion ready"
+  },
+  {
+    "name": "Men's Backpack 30L",
+    "brand": "American Tourister",
+    "price": 1899,
+    "cat": "Mens Corner",
+    "sub": "Bags",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80",
+    "desc": "Water-resistant, laptop compartment, ergonomic straps"
+  },
+  {
+    "name": "Men's Chronograph Watch",
+    "brand": "Titan",
+    "price": 5999,
+    "cat": "Mens Corner",
+    "sub": "Watches",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=500&q=80",
+    "desc": "Stainless steel case, leather strap, 50m water resistant"
+  },
+  {
+    "name": "Men Gym Joggers",
+    "brand": "ADIDAS",
+    "price": 1799,
+    "cat": "Mens Corner",
+    "sub": "Activewear",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1547621736-f6f40c11c0db?w=500&q=80",
+    "desc": "Moisture-absorbing, elastic waist, side zip pockets"
+  },
+  {
+    "name": "Men's Hoodie Sweatshirt Grey",
+    "brand": "Puma",
+    "price": 1799,
+    "cat": "Mens Corner",
+    "sub": "Casual Wear",
+    "rating": 4.4,
+    "img": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500&q=80",
+    "desc": "Fleece lined, front pocket, ribbed cuffs"
+  },
+  {
+    "name": "Men's Classic Aviator Sunglasses",
+    "brand": "Ray-Ban",
+    "price": 6990,
+    "cat": "Mens Corner",
+    "sub": "Accessories",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&q=80",
+    "desc": "UV400 protection, metal frame, polarized lenses"
+  },
+  {
+    "name": "Men's Sport Shorts Pack of 2",
+    "brand": "HRX",
+    "price": 999,
+    "cat": "Mens Corner",
+    "sub": "Activewear",
+    "rating": 4.3,
+    "img": "https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=500&q=80",
+    "desc": "Athletic cut, quick-dry fabric, side pockets"
+  },
+  {
+    "name": "Men's Perfume Sauvage Dior",
+    "brand": "Dior",
+    "price": 9500,
+    "cat": "Mens Corner",
+    "sub": "Fragrances",
+    "rating": 4.9,
+    "img": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&q=80",
+    "desc": "EDT 100ml, fresh and spicy, iconic masculinity"
+  },
+  {
+    "name": "Tata Salt Iodised 1kg",
+    "brand": "Tata",
+    "price": 25,
+    "cat": "Grocery",
+    "sub": "Staples",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=500&q=80",
+    "desc": "Vacuum evaporated iodised salt, crystal clear quality"
+  },
+  {
+    "name": "Basmati Rice 5kg Premium",
+    "brand": "India Gate",
+    "price": 399,
+    "cat": "Grocery",
+    "sub": "Rice & Grains",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=500&q=80",
+    "desc": "Extra long grain, aged for better aroma and taste"
+  },
+  {
+    "name": "Fortune Soyabean Oil 5L",
+    "brand": "Fortune",
+    "price": 649,
+    "cat": "Grocery",
+    "sub": "Cooking Oil",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=500&q=80",
+    "desc": "Refined, cholesterol-free, vitamin A & D fortified"
+  },
+  {
+    "name": "Aashirvaad Atta 10kg",
+    "brand": "Aashirvaad",
+    "price": 449,
+    "cat": "Grocery",
+    "sub": "Flour",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1556228847-63d8b38f0b1b?w=500&q=80",
+    "desc": "MP chakki atta, high fibre, natural goodness"
+  },
+  {
+    "name": "Organic Honey 500g",
+    "brand": "Dabur",
+    "price": 299,
+    "cat": "Grocery",
+    "sub": "Breakfast",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=500&q=80",
+    "desc": "100% pure, natural forest honey, no added sugar"
+  },
+  {
+    "name": "Fresh Mixed Vegetables 1kg",
+    "brand": "Fresh Basket",
+    "price": 79,
+    "cat": "Grocery",
+    "sub": "Fresh Produce",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=500&q=80",
+    "desc": "Hand-picked seasonal vegetables, same-day delivery"
+  },
+  {
+    "name": "Amul Butter 500g",
+    "brand": "Amul",
+    "price": 280,
+    "cat": "Grocery",
+    "sub": "Dairy",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80",
+    "desc": "Pasteurised, table butter, rich & creamy taste"
+  },
+  {
+    "name": "Tata Tea Gold 500g",
+    "brand": "Tata Tea",
+    "price": 235,
+    "cat": "Grocery",
+    "sub": "Beverages",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&q=80",
+    "desc": "Strong & aromatic, perfect cup guaranteed"
+  },
+  {
+    "name": "Nescafe Classic Coffee 200g",
+    "brand": "Nescafe",
+    "price": 549,
+    "cat": "Grocery",
+    "sub": "Beverages",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=500&q=80",
+    "desc": "Pure soluble coffee, rich aroma, smooth taste"
+  },
+  {
+    "name": "Farm Fresh Eggs 30pcs",
+    "brand": "Eggoz",
+    "price": 199,
+    "cat": "Grocery",
+    "sub": "Eggs & Meat",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?w=500&q=80",
+    "desc": "Free-range, premium quality, rich in protein"
+  },
+  {
+    "name": "Parle G Biscuits Pack of 10",
+    "brand": "Parle",
+    "price": 100,
+    "cat": "Grocery",
+    "sub": "Snacks",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500&q=80",
+    "desc": "Classic glucose biscuit, energy boost, great taste"
+  },
+  {
+    "name": "Yellow Dal Toor 1kg",
+    "brand": "Patanjali",
+    "price": 149,
+    "cat": "Grocery",
+    "sub": "Pulses",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1612358405970-8d6c7b5ddc66?w=500&q=80",
+    "desc": "Premium quality toor dal, clean and sorted"
+  },
+  {
+    "name": "Alphonso Mango 1kg",
+    "brand": "FreshKing",
+    "price": 299,
+    "cat": "Grocery",
+    "sub": "Fresh Produce",
+    "rating": 4.9,
+    "img": "https://images.unsplash.com/photo-1576179635662-9d1983e97e1e?w=500&q=80",
+    "desc": "Organic Alphonso mangoes, super sweet, directly from farms"
+  },
+  {
+    "name": "Cold Pressed Coconut Oil 500ml",
+    "brand": "Coco Soul",
+    "price": 399,
+    "cat": "Grocery",
+    "sub": "Cooking Oil",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=500&q=80",
+    "desc": "Virgin, unrefined, suitable for cooking & hair care"
+  },
+  {
+    "name": "King Size Bed Wooden Walnut",
+    "brand": "Pepperfry",
+    "price": 34999,
+    "cat": "Home & Furniture",
+    "sub": "Beds",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=500&q=80",
+    "desc": "Solid sheesham wood, storage headboard, queen & king sizes"
+  },
+  {
+    "name": "3-Seater Sofa Grey Fabric",
+    "brand": "Urban Ladder",
+    "price": 24999,
+    "cat": "Home & Furniture",
+    "sub": "Sofas",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&q=80",
+    "desc": "High density foam, anti-pilling fabric, 5yr warranty"
+  },
+  {
+    "name": "Dining Table 6-Seater Oak",
+    "brand": "Godrej Interio",
+    "price": 29999,
+    "cat": "Home & Furniture",
+    "sub": "Dining",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?w=500&q=80",
+    "desc": "Solid oak wood, easy assembly, includes 6 chairs"
+  },
+  {
+    "name": "Office Chair Ergonomic Mesh",
+    "brand": "Green Soul",
+    "price": 12999,
+    "cat": "Home & Furniture",
+    "sub": "Office Furniture",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&q=80",
+    "desc": "Adjustable lumbar, 4D armrests, breathable mesh back"
+  },
+  {
+    "name": "Wardrobe 3-Door Mirror Sliding",
+    "brand": "Spacewood",
+    "price": 22999,
+    "cat": "Home & Furniture",
+    "sub": "Storage",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=500&q=80",
+    "desc": "Mirror sliding doors, 6 shelves, 2 hanging sections"
+  },
+  {
+    "name": "Cotton Bedsheet Set King",
+    "brand": "Bombay Dyeing",
+    "price": 1299,
+    "cat": "Home & Furniture",
+    "sub": "Bedding",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500&q=80",
+    "desc": "300TC, 100% cotton, includes 2 pillow covers"
+  },
+  {
+    "name": "LED Floor Lamp Tripod Gold",
+    "brand": "Ikea",
+    "price": 4999,
+    "cat": "Home & Furniture",
+    "sub": "Lighting",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80",
+    "desc": "360° adjustable, 3 light settings, energy efficient LED"
+  },
+  {
+    "name": "Curtain Set Blackout 7ft",
+    "brand": "Raymond Home",
+    "price": 1999,
+    "cat": "Home & Furniture",
+    "sub": "Curtains",
+    "rating": 4.4,
+    "img": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=500&q=80",
+    "desc": "99% light blocking, thermal insulated, set of 2"
+  },
+  {
+    "name": "LG Frost Free Refrigerator 260L",
+    "brand": "LG",
+    "price": 29990,
+    "cat": "Appliances & Kitchen",
+    "sub": "Refrigerators",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?w=500&q=80",
+    "desc": "Inverter compressor, Hygiene Fresh+, Multi Air Flow"
+  },
+  {
+    "name": "Samsung Front Load Washing Machine",
+    "brand": "Samsung",
+    "price": 35900,
+    "cat": "Appliances & Kitchen",
+    "sub": "Washing Machines",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1626806987023-be36f93f9604?w=500&q=80",
+    "desc": "7kg, AI ecobubble, digital inverter, 5yr warranty"
+  },
+  {
+    "name": "Philips Air Fryer 4.1L",
+    "brand": "Philips",
+    "price": 8999,
+    "cat": "Appliances & Kitchen",
+    "sub": "Kitchen Appliances",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1648152615698-3c8b9f6bd4cc?w=500&q=80",
+    "desc": "Rapid Air technology, 90% less fat, digital display"
+  },
+  {
+    "name": "Instant Pot Pressure Cooker 6L",
+    "brand": "Instant Pot",
+    "price": 12499,
+    "cat": "Appliances & Kitchen",
+    "sub": "Kitchen Appliances",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=500&q=80",
+    "desc": "7-in-1 multi-cooker, 13 cooking programs, stainless steel"
+  },
+  {
+    "name": "Morphy Richards Mixer Grinder",
+    "brand": "Morphy Richards",
+    "price": 3499,
+    "cat": "Appliances & Kitchen",
+    "sub": "Kitchen Appliances",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=500&q=80",
+    "desc": "750W motor, 3 jars, 5yr motor warranty, overload protection"
+  },
+  {
+    "name": "Dyson V12 Detect Slim Vacuum",
+    "brand": "Dyson",
+    "price": 49900,
+    "cat": "Appliances & Kitchen",
+    "sub": "Cleaning",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80",
+    "desc": "Laser dust detection, 60min battery, lightweight"
+  },
+  {
+    "name": "Prestige Non-Stick Cookware Set",
+    "brand": "Prestige",
+    "price": 3999,
+    "cat": "Appliances & Kitchen",
+    "sub": "Cookware",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=500&q=80",
+    "desc": "5-piece set, aluminium with PTFE coating, induction compatible"
+  },
+  {
+    "name": "Dualit Toaster 4-Slice",
+    "brand": "Dualit",
+    "price": 11999,
+    "cat": "Appliances & Kitchen",
+    "sub": "Kitchen Appliances",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1551462073-6a9fc2a98d9c?w=500&q=80",
+    "desc": "6 browning levels, bagel setting, stainless steel body"
+  },
+  {
+    "name": "Lakme Foundation Matte Mousse",
+    "brand": "Lakme",
+    "price": 599,
+    "cat": "Beauty & Personal Care",
+    "sub": "Makeup",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1599733589046-833f5b6ff6e8?w=500&q=80",
+    "desc": "Oil-free, 24h coverage, SPF8, 20 shades"
+  },
+  {
+    "name": "Maybelline Fit Me Foundation",
+    "brand": "Maybelline",
+    "price": 529,
+    "cat": "Beauty & Personal Care",
+    "sub": "Makeup",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1526510747491-58f928ec870f?w=500&q=80",
+    "desc": "Natural coverage, Aloe vera, matte finish, 40 shades"
+  },
+  {
+    "name": "L'Oreal Serum Anti-Aging",
+    "brand": "L'Oreal",
+    "price": 1299,
+    "cat": "Beauty & Personal Care",
+    "sub": "Skincare",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1556228578-d5895960a37c?w=500&q=80",
+    "desc": "1.5% hyaluronic acid, 72h hydration, dermatologically tested"
+  },
+  {
+    "name": "Neutrogena Sunscreen SPF50+",
+    "brand": "Neutrogena",
+    "price": 599,
+    "cat": "Beauty & Personal Care",
+    "sub": "Skincare",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1556228578-d5895960a37c?w=500&q=80",
+    "desc": "Broad spectrum, non-oily, water resistant, 88ml"
+  },
+  {
+    "name": "Pantene Shampoo + Conditioner",
+    "brand": "Pantene",
+    "price": 399,
+    "cat": "Beauty & Personal Care",
+    "sub": "Hair Care",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1585751119414-ef2636f8aede?w=500&q=80",
+    "desc": "Damage repair, pro-Vitamin B5, set of 2 x 340ml"
+  },
+  {
+    "name": "Gillette Fusion5 Razor Set",
+    "brand": "Gillette",
+    "price": 699,
+    "cat": "Beauty & Personal Care",
+    "sub": "Shaving",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1587304680-a3fcdef72cb8?w=500&q=80",
+    "desc": "5 anti-friction blades, Flexball technology, precision trimmer"
+  },
+  {
+    "name": "Nivia Football Size 5",
+    "brand": "Nivia",
+    "price": 799,
+    "cat": "Lifestyle & Hobbies",
+    "sub": "Sports",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&q=80",
+    "desc": "Rubber encapsulated nylon wound, machine stitched, FIFA approved"
+  },
+  {
+    "name": "Yoga Mat Non-Slip 6mm",
+    "brand": "Boldfit",
+    "price": 599,
+    "cat": "Lifestyle & Hobbies",
+    "sub": "Fitness",
+    "rating": 4.6,
+    "img": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&q=80",
+    "desc": "Eco-friendly TPE, carrying strap included, anti-skid"
+  },
+  {
+    "name": "Canon Watercolor Pens Set 36",
+    "brand": "Canon Art",
+    "price": 899,
+    "cat": "Lifestyle & Hobbies",
+    "sub": "Art & Craft",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500&q=80",
+    "desc": "36 vibrant colours, flexible brush tip, blendable"
+  },
+  {
+    "name": "Chess Board Wooden Luxury",
+    "brand": "Toy Zone",
+    "price": 1299,
+    "cat": "Lifestyle & Hobbies",
+    "sub": "Board Games",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=500&q=80",
+    "desc": "Rosewood & maple, storage inside board, weighted pieces"
+  },
+  {
+    "name": "Kindle Paperwhite 16GB",
+    "brand": "Amazon",
+    "price": 14999,
+    "cat": "Lifestyle & Hobbies",
+    "sub": "Books & E-Readers",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1592434134753-a70baf7979d5?w=500&q=80",
+    "desc": "300ppi glare-free display, 6-week battery, waterproof"
+  },
+  {
+    "name": "Guitar Acoustic Yamaha F280",
+    "brand": "Yamaha",
+    "price": 7490,
+    "cat": "Lifestyle & Hobbies",
+    "sub": "Musical Instruments",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=500&q=80",
+    "desc": "Spruce top, nato back & sides, great playability for beginners"
+  }
+]

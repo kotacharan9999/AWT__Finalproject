@@ -1,0 +1,19 @@
+{
+  "name": "awt-final-project",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "simpleapp"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm --prefix backend run start\" \"npm --prefix simpleapp run start\"",
+    "server": "npm --prefix backend run start",
+    "client": "npm --prefix simpleapp run start",
+    "build": "npm --prefix simpleapp run build",
+    "seed": "npm --prefix backend run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.1.14"
+  }
+}
