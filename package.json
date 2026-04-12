@@ -9,7 +9,8 @@
     "start": "concurrently \"npm --prefix backend run start\" \"npm --prefix simpleapp run start\"",
     "server": "npm --prefix backend run start",
     "client": "npm --prefix simpleapp run start",
-    "build": "npm --prefix simpleapp run build",
+    "build": "npm install --include=dev && npm run client-build",
+    "client-build": "npm --prefix simpleapp run build",
     "seed": "npm --prefix backend run seed"
   },
   "devDependencies": {

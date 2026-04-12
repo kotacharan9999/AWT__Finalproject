@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: shopease-plus
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: cd backend && node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        generateValue: false # User must provide Atlas URI
+      - key: JWT_SECRET
+        generateValue: true # Generates a secure random key
+      - key: ENCRYPTION_KEY
+        generateValue: true # Generates a secure random key
+      - key: ADMIN_EMAIL
+        value: kotareddy9848@gmail.com
+      - key: ADMIN_PASSWORD
+        value: kotareddy9848
+      - key: ADMIN_NAME
+        value: Admin
+      - key: STRIPE_SECRET_KEY
+        value: sk_test_placeholder # User should update this in Render dashboard
