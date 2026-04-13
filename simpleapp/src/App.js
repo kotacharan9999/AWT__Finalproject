@@ -31,7 +31,7 @@ function App() {
 
   const [user, setUser] = useState(() => {
     try {
-      const stored = localStorage.getItem('shopease_user');
+      const stored = sessionStorage.getItem('shopease_user');
       if (stored) {
         const parsed = JSON.parse(stored);
         if (parsed && parsed.email && parsed.token) {
@@ -66,7 +66,7 @@ function App() {
   useEffect(() => {
     if (user && user.token && user.email) {
         hasHydrated.current = true;
-        localStorage.setItem('shopease_user', JSON.stringify(user));
+        sessionStorage.setItem('shopease_user', JSON.stringify(user));
         const headers = { Authorization: `Bearer ${user.token}` };
         const scopedCartKey = getScopedStorageKey('cart', user.email);
         const scopedWishlistKey = getScopedStorageKey('wishlist', user.email);
@@ -101,7 +101,7 @@ function App() {
           }).catch(console.error);
       } else if (!user && hasHydrated.current) {
         // Only clear on actual logout, not on initial mount
-        localStorage.removeItem('shopease_user');
+        sessionStorage.removeItem('shopease_user');
         sessionStorage.removeItem('shopease_user_session');
         setAddresses([]);
         setOrders([]);
