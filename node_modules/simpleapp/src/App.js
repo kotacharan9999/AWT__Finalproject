@@ -10,7 +10,7 @@ import CartDrawer from './Components/CartDrawer';
 import Home from './Pages/Home';
 import Products from './Pages/Products';
 import ProductDetails from './Pages/ProductDetails';
-import Cart from './Pages/Cart'; // eslint-disable-line no-unused-vars
+import Cart from './Pages/Cart'; 
 import Auth from './Pages/Auth';
 import Wishlist from './Pages/Wishlist';
 import Checkout from './Pages/Checkout';
@@ -64,7 +64,7 @@ function App() {
 
   // ── Sync user data on login/logout ──────────────────────────────────────
   useEffect(() => {
-    if (user) {
+    if (user && user.token && user.email) {
         hasHydrated.current = true;
         localStorage.setItem('shopease_user', JSON.stringify(user));
         const headers = { Authorization: `Bearer ${user.token}` };
@@ -99,7 +99,7 @@ function App() {
             setCart(Array.isArray(data.cart) ? data.cart : []);
             setWishlist(Array.isArray(data.wishlist) ? data.wishlist : []);
           }).catch(console.error);
-      } else if (hasHydrated.current) {
+      } else if (!user && hasHydrated.current) {
         // Only clear on actual logout, not on initial mount
         localStorage.removeItem('shopease_user');
         sessionStorage.removeItem('shopease_user_session');

@@ -569,7 +569,7 @@ app.put('/api/users/:email/state', authenticateToken, requireSelfOrAdmin, async 
     const user = await User.findOneAndUpdate(
       { email: req.requestedEmail }, 
       { cart: cart || [], wishlist: wishlist || [] }, 
-      { new: true }
+      { returnDocument: 'after' }
     );
     if (!user) return res.status(404).json({ message: 'User not found' });
     res.json({ message: 'State synced securely' });

@@ -1,0 +1,30 @@
+name: Deploy to Render
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm install
+      - name: Build frontend
+        run: npm run build
+      - name: Verification
+        run: echo "Build successful! Ready for Render deployment."
+
+  # Optional: Trigger Render Deploy Hook
+  # deploy:
+  #   needs: build_and_test
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Trigger Render Deploy
+  #       run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
